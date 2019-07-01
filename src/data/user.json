@@ -1,0 +1,11 @@
+[{
+        "id": "a",
+        "nickname": "Alpaca",
+        "avatar": "https://cdn.pixabay.com/photo/2019/04/27/12/20/alpaca-4159879_960_720.jpg"
+    },
+    {
+        "id": "b",
+        "nickname": "Lama",
+        "avatar": "https://cdn.pixabay.com/photo/2018/08/12/19/35/zoo-3601536_960_720.jpg"
+    }
+]
