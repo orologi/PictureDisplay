@@ -1,6 +1,6 @@
 import React from "react"
 import { Link } from "gatsby"
-import Post from "../components/Post/post"
+import Post from "../components/Post"
 
 import Layout from "../components/layout"
 import Image from "../components/image"
