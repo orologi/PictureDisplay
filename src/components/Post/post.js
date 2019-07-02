@@ -40,30 +40,34 @@ const PostCaption = styled.span`
 `
 
 const User = props => (
-        <h1>hello</h1>
-  )
+  <Row>
+    <PostUserAvatar src={props.PostUserAvatar} />
+    <PostUserNickname>{props.username}</PostUserNickname>
+  </Row>
+)
 
 
 
-  class Post extends Component {
-    constructor(props) {
-      super(props)
-    }
-    render() {
-      const nickname = this.props.nickname
-      const avatar = this.props.avatar
-      const image = this.props.image
-      const caption = this.props.caption
-      return (
-        <Container>
-          <User  />
-
-        </Container>
-      )
-    }
+class Post extends Component {
+  constructor(props) {
+    super(props)
   }
-  
-
+  render() {
+    const nickname = this.props.nickname
+    const avatar = this.props.avatar
+    const image = this.props.image
+    const caption = this.props.caption
+    return (
+      <Container>
+        <User PostUserAvatar={avatar} username={nickname} />
+        <Row>
+          <PostUserImg src={image} />
+        </Row>
+        <PostCaption>{caption}</PostCaption>
+      </Container>
+    )
+  }
+}
 
 
 
