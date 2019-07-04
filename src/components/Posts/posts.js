@@ -12,6 +12,8 @@ const Posts = ({ children }) => (
               id
               caption
               image
+              avatar
+              nickname
             }
           }
         }
@@ -33,6 +35,8 @@ function getPost(data) {
         key={item.node.id}
         caption={item.node.caption}
         image={item.node.image}
+        avatar={item.node.avatar}
+        nickname={item.node.nickname}
       />
     )
   )
