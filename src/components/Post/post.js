@@ -19,6 +19,7 @@ const PostUserAvatar = styled.img`
   width: 50px;
   height: 50px;
   border-radius: 50%;
+  
 `
 
 const PostUserImg = styled.img`
@@ -31,12 +32,17 @@ const PostUserNickname = styled.h1`
   margin-left: 12px;
   font-family: "PT Sans", sans-serif;
   font-weight: bold;
+  background-color: hsla(14, 100%, 53%, 0.6);
 `
 
 const PostCaption = styled.span`
-  padding: 16px 16px;
+  padding: 50px 16px;
+  font-size 18px;
   font-family: "PT Sans", sans-serif;
   font-weight: bold;
+  display:flex
+  justify-content: center;
+  
 `
 
 const User = props => (
