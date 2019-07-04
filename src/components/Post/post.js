@@ -32,7 +32,7 @@ const PostUserNickname = styled.h1`
   margin-left: 12px;
   font-family: "PT Sans", sans-serif;
   font-weight: bold;
-  background-color: hsla(14, 100%, 53%, 0.6);
+
 `
 
 const PostCaption = styled.span`
